@@ -31,5 +31,11 @@ export const styles = StyleSheet.create({
     input: {
         width: '90%',
         color: '#fff',
+    },
+    noResult: {
+        color: '#ccc',
+        fontSize: 14,
+        textAlign: 'center',
+        marginTop: 24
     }
 })
