@@ -4,7 +4,10 @@ export const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#242A32',
-        padding: 25
+    },
+    header:{
+        paddingTop: 25,
+        paddingHorizontal: 25
     },
     headerText: {
         marginTop: 30,
@@ -19,6 +22,14 @@ export const styles = StyleSheet.create({
         borderRadius: 15,
         paddingVertical: 8,
         paddingHorizontal: 16,
-        marginTop: 16
+        marginTop: 16,
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+    },
+    input: {
+        width: '90%',
+        color: '#fff',
     }
 })
